@@ -1,0 +1,49 @@
+.sec-page-header  {
+    background: url(../img/contact_us/contact_us_header.jpg);
+}
+
+.sec-contact-info i {
+    font-size: 30px;
+    color: #fa7f9c;
+    margin: 20px 0;
+}
+.sec-contact-info h3 {
+    color: #fa7f9c;
+}
+.sec-contact-info p {
+    color: #999;
+}
+
+.sec-form {
+    width: 85%;
+    border: 1px solid #fa7f9c;
+    padding: 20px;
+    background-color: #ffe5eb;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 10px 0px rgb(0 0 0 / 12%);
+}
+.sec-form img {
+    margin: 50px 0;
+}
+.sec-form h2 {
+    color: #fa7f9c;
+}
+.sec-form p{
+    color: #999;
+}
+.sec-form label {
+    color: #999;
+    font-weight: bold;
+}
+.sec-form input,
+.sec-form textarea
+ {
+    border: 0;
+    border-radius:  8px;
+}
+@media (max-width:858px) {
+    .sec-form img {
+        width: 70%;
+    }
+}

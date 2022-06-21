@@ -1,0 +1,31 @@
+.img1{
+    border: 5px solid #ff7f9f;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    /* margin-left: 50px;
+    margin-top: 10px; */
+}
+
+.sec{
+    background: url(../img/testimmonials/header-bg.png) no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: none;
+    padding:20px ;
+    z-index: -1;
+}
+.sec .card-body {
+    text-align: start;
+}
+.sec h3{
+color: #ff7f9f;
+}
+.sec p {
+    font-weight: bold;
+}
+.sec-test {
+    width: 90%;
+}

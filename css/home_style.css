@@ -1,0 +1,394 @@
+/* ---------------------------------------------------------- slider -------------------------------------------------------------------------------- */
+
+.sec-slider,
+.sec-slider .carousel .w-100 {
+    height: 100vh;
+}
+
+.sec-slider .carousel-caption {
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 20vh;
+}
+
+/*---------------------------------------------------------- end slider ---------------------------------------------------------------------------*/
+/*---------------------------------------------------------- start area-inner ---------------------------------------------------------------------------*/
+.sec-area-inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-area-inner .card {
+    border: 0;
+}
+.sec-area-inner .all {
+    border: 0;
+    background:  url(../img/area-inner/area_inner_bg.png);
+    padding: 10px;
+    box-shadow: 0px 1px 0px 2px #efefef7a;
+    background-color: #ffffff;
+}
+.sec-area-inner .content {
+    padding: 50px 20px;
+    width: 100%;
+    /* height: 60vh; */
+    border: 1px dashed #ccccca;
+}
+.sec-area-inner .content img {
+    width: 100%;
+    height: 50vh;
+}
+
+/*---------------------------------------------------------- end sec-area-inner ---------------------------------------------------------------------------*/
+/*---------------------------------------------------------- section  our products ---------------------------------------------------------------------------*/
+
+/* section of our products */
+.sec-our-products {
+    background-image: url(../img/product/products_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sec-our-products .card {
+    border: 0;
+}
+
+.sec-our-products .card .chose h1,
+.sec-our-products .card .chose p,
+.sec-our-products .card .chose img {
+    margin-top: 15px;
+}
+
+
+.sec-our-products .chose {
+    background-image: url(../img/header-bg.png);
+    background-color: #f9f9f9;
+    align-items: center;
+    padding: 20px;
+}
+
+/*---------------------------------------------------------- end our products  ---------------------------------------------------------------------------*/
+/*---------------------------------------------------------- start our-gallery  ---------------------------------------------------------------------------*/
+.sec-our-gallery .chose {
+    background-image: url(../img/header-bg.png);
+    background-color: #fa7f9c;
+    align-items: center;
+    padding: 50px 20px;
+}
+.sec-our-gallery .chose h1 {
+    color: #fff;
+}
+.sec-our-gallery .chose p {
+    font-weight: bold;
+}
+.sec-our-gallery .col img {
+    width: 100%;
+    height: 50vh;
+}
+/*---------------------------------------------------------- end our-gallery  ---------------------------------------------------------------------------*/
+/*---------------------------------------------------------- sttart  FEATURED ITEM   ---------------------------------------------------------------------------*/
+
+.sec-featured-item .card {
+    border: 0;
+    border-radius: 0;
+}
+
+.sec-featured-item .card .content img {
+    border-radius: 0;
+}
+
+.sec-featured-item .card .content {
+    border: 1px solid #b9b5b4;
+    border-radius: 0;
+}
+
+.sec-featured-item .card .content h1 {
+    color: #000;
+    font-size: 25px;
+}
+
+/*---------------------------------------------------------- end FEATURED ITEM  ---------------------------------------------------------------------------*/
+/*---------------------------------------------------------- start about  ---------------------------------------------------------------------------*/
+
+.sec-about {
+    text-align: center;
+}
+
+.sec-about .content-center {
+    background-image: url(../img/about/aboutbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.sec-about .content-center .data {
+    border: 1px dashed #828282;
+    padding: 20px;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.sec-about .content-center .data h1 {
+    margin-top: 30px;
+    color: #fa7f9c;
+}
+
+.sec-about .content-center .data p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #828282;
+    font-size: 0.95rem;
+}
+
+/*---------------------------------------------------------- start our chefs  ---------------------------------------------------------------------------*/
+
+.sec-our-chefs {
+    background-image: url(../img/section_bg.png);
+    background-repeat: no-repeat;
+}
+
+.sec-our-chefs .card {
+    border: 0;
+    border-radius: 0;
+}
+
+.sec-our-chefs .card .content {
+    border: 1px solid #ccc;
+}
+
+.sec-our-chefs .card .content h1 {
+    color: #ff7f9f;
+}
+
+.sec-our-chefs .card .content i {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ff7f9f;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ff7f9f;
+}
+
+.sec-our-chefs .card .content i:hover {
+    color: #fff;
+    background-color: #ff7f9f;
+}
+
+/*---------------------------------------------------------- end of our chefs  ---------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------- start testimonials  ---------------------------------------------------------------------------*/
+
+.sec-testimonials {
+    background-image: url(../img/testimmonials/testimonials_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec-testimonials .all {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sec-testimonials .testimonials-l {
+    background: #f9f9f9 url(../img/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.sec-testimonials .testimonials-l img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.sec-testimonials .testimonials-l h4 {
+    color: #fa7f9c;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sec-testimonials .testimonials-l h6 {
+    color: #828282;
+}
+
+.sec-testimonials .testimonials-l p {
+    font-size: 30px;
+}
+
+.sec-testimonials .testimonials-r {
+    background-color: #fbfbfb;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec-testimonials .testimonials-r img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sec-testimonials .testimonials-r h1 {
+    color: #fa7f9c;
+    margin-bottom: 30px;
+}
+
+.sec-testimonials .testimonials-r input {
+    margin-bottom: 10px;
+}
+
+.sec-testimonials .testimonials-r button {
+    margin-top: 20px;
+    background-color: #ff7f9f;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+}
+
+/*---------------------------------------------------------- end testimonials  ---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------- start OUR FEATURED  ---------------------------------------------------------------------------*/
+
+.sec-our-features {
+    background-image: url(../img/features_bg.png);
+    background-repeat: no-repeat;
+}
+
+.sec-our-features i {
+    font-size: 50px;
+    height: 125px;
+    width: 125px;
+    line-height: 125px;
+    margin-bottom: 40px;
+    background-color: #ff7f9f;
+    color: #fff;
+    border-radius: 50%;
+}
+
+/*---------------------------------------------------------- end OUR FEATURED  ---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------- start  Contact  ---------------------------------------------------------------------------*/
+.sec-contact {
+    background-image: url(../img/contact_us_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-contact .content {
+    background: linear-gradient(to left, #fa7f9c 5%, #fa7f9c61 100%);
+    text-align: center;
+}
+
+.sec-contact .content .data {
+    padding: 20vh 0;
+}
+
+.sec-contact .content h1,
+.sec-contact .content h5 {
+    color: #fff;
+}
+
+.sec-contact .content h1 {
+    font-size: 60px;
+}
+
+.sec-contact .content button {
+    background-color: #fff;
+    padding: 10px 50px;
+    color: #fa7f9c;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 2px solid #ff7f9f;
+    font-size: 25px;
+    outline: 2px solid #fff;
+}
+
+.sec-contact .content button:hover {
+    background-color: #fa7f9c;
+    color: #fff;
+    border: 2px solid #ff7f9f;
+    outline: 2px solid #fff;
+}
+
+/*---------------------------------------------------------- end Contact  ---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------- start latest-posts   ---------------------------------------------------------------------------*/
+.sec-latest-posts .card {
+    border: 0;
+    border-radius: 0;
+}
+
+.sec-latest-posts .card .card-body {
+    text-align: left;
+}
+
+.sec-latest-posts .card .card-body h5,
+.sec-latest-posts .card .card-body h3,
+.sec-latest-posts .card .card-body i {
+    color: #ff7f9f;
+    margin-bottom: 10px;
+}
+
+.sec-latest-posts .card .card-body p {
+    color: #828282;
+}
+
+.sec-latest-posts .card .card-body i {
+    font-size: 30px;
+}
+
+/*---------------------------------------------------------- end latest-posts   ---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------- start  subscribe  ---------------------------------------------------------------------------*/
+.sec-subscribe {
+    text-align: center;
+    background-image: url(../img/subscribe_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    width: 70%;
+    padding: 20px;
+}
+
+.sec-subscribe .content {
+    border: 1px dashed #b9b5b4;
+    padding: 20px;
+}
+
+.sec-subscribe h1,
+.sec-subscribe p {
+    color: #fff;
+}
+
+.sec-subscribe .content input {
+    border-radius: 30px;
+    border: 0;
+}
+
+.sec-subscribe .content button {
+    background-color: #ff7f9f;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+}
+
+/*---------------------------------------------------------- end  subscribe ---------------------------------------------------------------------------*/
+
+/* phone */
+@media (max-width:858px) {
+    .sec-slider {
+        margin-top: 0;
+    }
+}

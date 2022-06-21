@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Classic Bakery - Sweet Sweet Shop</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- wow css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- icon -->
+    <link rel="icon"
+        href="https://www.theclassictemplates.com/demo/classic-bakery/wp-content/uploads/2021/05/cropped-h9-img-3-192x192.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="https://www.theclassictemplates.com/demo/classic-bakery/wp-content/uploads/2021/05/cropped-h9-img-3-180x180.png" />
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <!-- home page style -->
+    <link rel="stylesheet" href="css/home_style.css">
+</head>
+
+<body>
+
+
+
+    <input type="checkbox" id="check">
+    <label for="check" class="icon-btn checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- start nav left -->
+    <nav>
+        <div class="nav-header">
+            <h2 class="tite1">Classic Bakery</h2>
+            <p class="titel2">Sweet Sweet Shop</p>
+            <input type="search" class="search-field" placeholder="" value="" name="s" />
+            <a href="#" class="cart"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <ul class="nav-ul">
+            <li class="nav-ul-li">
+                <a href="">Home</a>
+            </li>
+            <li class="nav-ul-li">
+                <a href="">Pages</a>
+                <span style="float: right;">
+                    <i class="fas fa-sort-down  fa-rotate-90"></i>
+                </span>
+                <ul>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="pages/team_page.html">Team</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="pages/testimoniais_page.html">Testimoniais</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270 "></i>
+                        <a href="pages/faq_page.html">Faq</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270 "></i>
+                        <a href="pages/gallery_page.html">Gallery</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-ul-li">
+                <a href="">Services</a>
+            </li>
+            <li class="nav-ul-li">
+
+                <a href="">Blog</a>
+            </li>
+            <li class="nav-ul-li">
+                <a href="">Other Pages</a>
+                <i style="float: right;" class="fas fa-sort-down  fa-rotate-90 float-right"></i>
+                <ul>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="">Shop</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="">My account</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="">Cart</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-sort-down fa-rotate-270"></i>
+                        <a href="">Checkout</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-ul-li">
+                <a href="pages/contact_us.html">Contact</a>
+            </li>
+            <li class="nav-ul-li">
+                <input type="button" value="Shop" class="nav-btn rounded-pill">
+            </li>
+            <li class="nav-ul-li">
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- end nav left -->
+    <!-- start main page -->
+    <div class="main container-fuild">
+        <!-- start nav top -->
+        <navbar class="navbar container-fuild">
+            <div class="container">
+                <div class="row py-2 text-center">
+                    <div class="col-9">
+                        <h2 style="color: #ff8da7;" class="navbar-brand">Classic Baker</h2>
+                        <h6 class="titel2">
+                            Sweet Sweet Shop
+                        </h6>
+                    </div>
+                    <div class="col-3">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="row py-2 text-center">
+                    <div class="col-9">
+                        <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                    </div>
+                    <div class="col-3">
+                        <input type="" id="check">
+                        <label for="" class="checkbtn">
+                            <i class="fa fa-shopping-cart"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </navbar>
+        <!-- end nav top -->
+        <!-- start slider -->
+
+        <section class="sec-slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="z-index: -2;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slider/slider_1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block">
+                            <div class="logo wow bounceIn"  data-wow-duration="2s" data-wow-delay="0.5s">
+                                <img src="img/logo.png" class="image" />
+                            </div>
+                            <div class="wow bounceIn" data-wow-duration="2s" data-wow-delay="0.5s">
+                                <h2>Best Pasty in Town</h2>
+                                <p>Los Angeles, California</p>
+                            </div>
+                            <input type="button" value="Shop"  data-wow-duration="2s" data-wow-delay="0.5s" class="wow bounceIn slider-btn rounded-pill">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider/slider_2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block">
+                            <div class="logo wow bounceIn"  data-wow-duration="2s" data-wow-delay="0.5s">
+                                <img src="img/logo.png" class="image" />
+                            </div>
+                            <div class="wow bounceIn" data-wow-duration="2s" data-wow-delay="0.5s">
+                                <h2>Best Pasty in Town</h2>
+                                <p>Los Angeles, California</p>
+                            </div>
+                            <input type="button" value="Shop"  data-wow-duration="2s" data-wow-delay="0.5s" class="wow bounceIn slider-btn rounded-pill">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider/slider_3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block">
+                            <div class="logo wow bounceIn"  data-wow-duration="2s" data-wow-delay="0.5s">
+                                <img src="img/logo.png" class="image" />
+                            </div>
+                            <div class="wow bounceIn" data-wow-duration="2s" data-wow-delay="0.5s">
+                                <h2>Best Pasty in Town</h2>
+                                <p>Los Angeles, California</p>
+                            </div>
+                            <input type="button" value="Shop"  data-wow-duration="2s" data-wow-delay="0.5s" class="wow bounceIn slider-btn rounded-pill">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- end slider -->
+        <!-- start section area-inner -->
+        <section class="sec-area-inner container">
+            <div class="row g-3 py-4 row-cols-1 row-cols-lg-3">
+                <div class="wow bounceIn col card">
+                    <div class="all">
+                        <div class="content">
+                            <img src="img/area-inner/area_inner_1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn col card">
+                    <div class="all">
+                        <div class="content">
+                            <img src="img/area-inner/area_inner_2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn col card">
+                    <div class="all">
+                        <div class="content">
+                            <img src="img/area-inner/area_inner_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section area-inner -->
+        <!-- start section of OUR PRODUCTS -->
+        <section class="sec sec-our-products container">
+            <div class="wow bounceIn" data-wow-duration="2s">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>OUR PRODUCTS</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    tempor
+                    incididunt.</p>
+            </div>
+            <div class="row g-3 py-4 row-cols-2 row-cols-lg-3">
+                <div class="col card wow bounceIn" data-wow-duration="2s">
+                    <div class="chose">
+                        <img src="img/ornaments4.png" class="icon_header" alt="">
+                        <h1>Chose the best one</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <img src="img/product/product_1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col card wow bounceIn">
+                    <img src="img/product/product_2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col card wow bounceIn">
+                    <img src="img/product/product_3.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col card wow bounceIn">
+                    <img src="img/product/product_4.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col card wow bounceIn">
+                    <img src="img/product/product_5.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </section>
+        <!-- end section of OUR PRODUCTS -->
+        <!-- start our-gallery -->
+
+        <section class="sec sec-our-gallery container">
+            <div class="wow bounceIn" data-wow-duration="2s">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>OUR GALLERY</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    tempor
+                    incididunt.</p>
+            </div>
+            <div class="row g-3 py-4 row-cols-1 row-cols-lg-3">
+                <div class="col wow bounceIn">
+                    <div class="chose">
+                        <h1>Photos from our gallery</h1>
+                        <p>see more</p>
+                    </div>
+                </div>
+                <div class="col wow bounceIn">
+                    <img src="img/gallery/gallery_1.jpg" alt="">
+                </div>
+                <div class="col wow bounceIn">
+                    <img src="img/gallery/gallery_2.jpg" alt="">
+                </div>
+                <div class="col wow bounceIn">
+                    <img src="img/gallery/gallery_3.jpg" alt="">
+                </div>
+                <div class="col wow bounceIn">
+                    <img src="img/gallery/gallery_4.jpg" alt="">
+                </div>
+                <div class="col wow bounceIn">
+                    <img src="img/gallery/gallery_5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- end our-gallery -->
+        <!-- start section of FEATURED ITEM -->
+        <section class="sec sec-featured-item container">
+            <div class="wow bounceIn">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>FEATURED ITEM</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    tempor
+                    incididunt.</p>
+            </div>
+            <div class="row g-3 py-4 row-cols-2 row-cols-lg-4">
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/featured_item/featured_item_8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Sweet Rolls</h1>
+                            <p class="card-text">$49.00 $21.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section of FEATURED ITEM -->
+        <!-- start section of about -->
+        <section class="sec-about container">
+            <div class="row g-3 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <img src="img/about/about_1.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="col content-center wow bounceIn">
+                    <div class="data">
+                        <img src="img/ornaments.png" alt="">
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <img src="img/about/about_signature.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/about/about_2.jpg" width="100%" height="100%" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- end section of about -->
+        <!-- start section of OUR CHEFS -->
+        <section class="sec sec-our-chefs container">
+            <div class="wow bounceIn">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>OUR CHEFS</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    tempor
+                    incididunt.</p>
+            </div>
+            <div class="row g-3 py-4 row-cols-1 row-cols-lg-3">
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/chef/chef_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Tom Knolltonns</h1>
+                            <p class="card-text">BAKERY CHEF</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/chef/chef_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Fiona Edwards</h1>
+                            <p class="card-text">PASTRY CHEF</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/chef/chef_3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Ralph Johnson</h1>
+                            <p class="card-text">COFFEE CHEF</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section of OUR CHEFS -->
+        <!-- start section of testimonials -->
+        <section class="sec-testimonials">
+            <div class="all">
+                <section class="container">
+                    <div class="row g-4  py-4 row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <div class="testimonials-l wow bounceIn">
+                                <img src="img/testimmonials/team.jpg" alt="">
+                                <p>Cupcake sweet caramels Cookie tpping sweet muffin</p>
+                                <h4>Marina Juliet</h4>
+                                <h6>BIG CHEF</h6>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="testimonials-r wow bounceIn">
+                                <img src="img/ornaments4.png" alt="">
+                                <h1>Get In Touch</h1>
+                                <input class="form-control" type="text" placeholder="Name"
+                                    aria-label="default input example">
+                                <input class="form-control" type="text" placeholder="Email"
+                                    aria-label="default input example">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Note" id="floatingTextarea2"
+                                        style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Note</label>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <svg width="100%" height="30" y="-3">
+                    <defs>
+                        <pattern id="ice-creamtest" x="0" y="0" width=".02" height="1">
+                            <path fill="#FEFEFE" d="M0 30 V12 Q30 30 55 12 T100 12 V30z"></path>
+                        </pattern>
+                        <filter id="f2" x="0" y="0" width="200%" height="200%">
+                            <feOffset result="offOut" in="SourceAlpha" dx="0" dy="2"></feOffset>
+                            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+                            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+                        </filter>
+                    </defs>
+                    <rect width="5000" height="30" fill="url(#ice-creamtest)" filter="url(#f2)"></rect>
+                </svg>
+            </div>
+        </section>
+        <!-- end section of testimonials -->
+        <!-- start section of OUR FEATURES -->
+        <section class="sec sec-our-features container">
+            <div class="wow bounceIn">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>OUR FEATURES</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    tempor
+                    incididunt.</p>
+            </div>
+            <div class="row g-3 py-4 row-cols-2 row-cols-lg-4">
+                <div class="col wow bounceIn">
+                    <i class="fas fa-users"></i>
+                    <h4>Experience Team</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+                <div class="col wow bounceIn">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h4>Creative Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+                <div class="col wow bounceIn">
+                    <i class="fas fa-beer"></i>
+                    <h4>Popular Products</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+                <div class="col wow bounceIn">
+                    <i class="fab fa-bitbucket"></i>
+                    <h4>Fresh Products</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+            </div>
+        </section>
+        <!-- end section of OUR FEATURES-->
+        <!-- section of contact -->
+        <section class="sec-contact">
+            <div class="content">
+                <div class="data wow bounceIn">
+                    <h5>Want To connect with us?</h5>
+                    <h1>CONTACT US</h1>
+                    <button type="submit" class="btn btn-primary mb-3">012-3456-789</button>
+                </div>
+                <svg width="100%" height="30" y="-3">
+                    <defs>
+                        <pattern id="ice-cream" x="0" y="0" width=".02" height="1">
+                            <path fill="#FEFEFE" d="M0 30 V12 Q30 30 55 12 T100 12 V30z"></path>
+                        </pattern>
+                        <filter id="f2" x="0" y="0" width="200%" height="200%">
+                            <feOffset result="offOut" in="SourceAlpha" dx="0" dy="2"></feOffset>
+                            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+                            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+                        </filter>
+                    </defs>
+                    <rect width="5000" height="30" fill="url(#ice-cream)" filter="url(#f2)"></rect>
+                </svg>
+            </div>
+        </section>
+        <!-- end of contact -->
+        <!-- start section of LATEST POSTS -->
+        <section class="sec sec-latest-posts container">
+            <div class="wow bounceIn">
+                <div class="sec-header">
+                    <div class="sec-header-l"></div>
+                    <img src="img/ornaments4.png" class="icon_header" alt="">
+                    <div class="sec-header-r"></div>
+                </div>
+                <h1>LATEST POSTS</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    in
+                    our
+                    pastry shop.</p>
+            </div>
+
+            <div class="row g-3 py-4 row-cols-1 row-cols-lg-3">
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/posts/post_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>7 Jun 2021 By cbakery</h5>
+                            <h3>Disclosing the secrets of success in Bakery</h3>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/posts/post_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>22 May 2021 By cbakery</h5>
+                            <h3>Hello World</h3>
+                            <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card wow bounceIn">
+                    <div class="content">
+                        <img src="img/posts/post_3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>7 Jun 2021 By cbakery</h5>
+                            <h3>Disclosing the secrets of success in Bakery</h3>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section of LATEST POSTS -->
+        <!-- start section of subscribe -->
+        <section class="sec sec-subscribe container">
+            <div class="content wow bounceIn">
+                <h1>Subscribe To Our Newsletter</h1>
+                <p>Up to date with our newsletter</p>
+                <div class="row g-3">
+                    <div class="col-md-9 col-xs-12">
+                        <input type="email" class="form-control" id="inputPassword2" placeholder="Email">
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section of subscribe -->
+        <!-- start footer -->
+        <svg width="100%" height="30" y="-3">
+            <defs>
+                <pattern id="footer-ices-cream" x="0" y="0" width=".02" height="1">
+                    <path fill="#ff8da7" d="M0 30 V12 Q30 30 55 12 T100 12 V30z"></path>
+                </pattern>
+                <filter id="f2" x="0" y="0" width="200%" height="200%">
+                    <feOffset result="offOut" in="SourceAlpha" dx="0" dy="2"></feOffset>
+                    <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+                    <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+                </filter>
+            </defs>
+            <rect width="5000" height="30" fill="url(#footer-ices-cream)" filter="url(#f2)"></rect>
+        </svg>
+        <footer id="footer">
+            <div class="sec-footer container">
+                <img src="img/logo.png" class="wow bounceIn image" />
+                <br>
+                <br>
+                <div class="wow bounceIn">
+                    <h1 class=" heading-font font-weight-500">Best Bakery in Town</h1>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis ratione
+                        quibusdam, dolorum dolore impedit nisi officia ipsa perspiciatis commodi libero amet natus?
+                        Provident voluptates tempora quam laboriosam quaerat deleniti.
+                    </p>
+                    <ul>
+                        <li>111 8th Ave, New York, U.S.A.</li>
+                        <li><a href="mailto:info@domain.com">info@domain.com</a></li>
+                        <li>012 345 6789</li>
+                    </ul>
+                </div>
+
+                <div class="icons wow bounceIn">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <br>
+                <h1 class="wow bounceIn">Our Works</h1>
+                <br>
+                <div class="galleryx text-center wow bounceIn">
+                    <div class='gallery-icon text-center'>
+                        <img src="img/footer/footer_1.jpg" alt="" />
+                    </div>
+                    <div class='gallery-icon text-center'>
+                        <img src="img/footer/footer_2.jpg" alt="" />
+                    </div>
+                    <div class='gallery-icon text-center'>
+                        <img src="img/footer/footer_3.jpg" alt="" />
+                    </div>
+                    <div class='gallery-icon text-center'>
+                        <img src="img/footer/footer_4.jpg" alt="">
+                    </div>
+                </div>
+                <p>copyright @2021 All Rights Reserved Bakery shop</p>
+        </footer>
+        <!-- end footer -->
+    </div>
+    <!-- end main page -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

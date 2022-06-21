@@ -1,0 +1,325 @@
+body {
+    background-color: #fff;
+}
+
+.main {
+    padding: 0;
+    margin-left: 280px;
+}
+
+/* --------------------------------------------------------- navber style ----------------------------------------------------------------------*/
+
+.checkbtn {
+    font-size: 25px;
+    color: #ff7f9f;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+    visibility: visible;
+}
+
+
+nav {
+    align-items: center;
+    height: 100vh;
+    width: 280px;
+    padding-top: 50px;
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 5px solid #f87797;
+    text-align: center;
+    z-index: 5;
+}
+
+nav .tite1,
+.navbar .tite1 {
+    color: #ff7f9f;
+}
+
+nav .titel2,
+.navbar .tite2 {
+    color: black;
+}
+
+nav .search-field {
+    border: 1px solid #fa7f9c;
+}
+
+
+nav .cart i {
+    color: #fa7f9c;
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav .nav-ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav .nav-ul .nav-ul-li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+nav .nav-ul .nav-ul-li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav .nav-ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+nav .nav-ul .nav-ul-li:hover>ul {
+    visibility: visible;
+}
+
+nav .nav-ul .nav-ul-li ul {
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: cover;
+    background-color: #f4f0ed;
+    margin: 0;
+    margin-top: -30px;
+    margin-left: 255px;
+    min-width: 200px;
+    text-align: left;
+    padding: 0px 15px;
+    border-left: 5px solid #ff819f;
+}
+
+nav .nav-ul .nav-ul-li ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav .nav-ul .nav-ul-li ul li a {
+    margin-left: 10px;
+}
+
+nav .nav-ul .nav-ul-li .icons i {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ff7f9f;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ff7f9f;
+}
+
+nav .nav-ul .nav-ul-li .icons i:hover {
+    color: #fff;
+    background-color: #ff7f9f;
+}
+
+.nav-btn,
+.sec-slider .slider-btn {
+    background-color: #ff7f9f;
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar {
+    visibility: hidden;
+    display: none;
+    background-color: #f4f0ed;
+}
+
+.navbar .row {
+    width: 100%;
+}
+
+/* ---------------------------------------------------------end navber style ----------------------------------------------------------------------*/
+
+/* sec */
+.sec {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec h1 {
+    color: #ff7f9f;
+}
+
+.sec p {
+    font-size: 0.95rem;
+    color: #828282;
+}
+
+/* line left, icon, line right */
+.sec-header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sec-header img {
+    width: 40px;
+}
+
+.sec-header .sec-header-l,
+.sec-header .sec-header-r {
+    border-top: 1px solid #d3b898;
+    width: 20%;
+    display: inline-block;
+}
+
+.sec-header .sec-header-l {
+    margin-right: 30px;
+}
+
+.sec-header .sec-header-r {
+    margin-left: 30px;
+}
+
+/* sec page header */
+.sec-page-header {
+    background: url(../img/page_header.jpg);
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.sec-page-header .content {
+    background: linear-gradient(to left, #fa7f9c 5%, #fa7f9c61 100%);
+    text-align: center;
+    color: #fff;
+}
+
+.sec-page-header .content div {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10vh 0;
+}
+
+.sec-page-header .content div h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* ---------------------------------------------------------footer style ----------------------------------------------------------------------*/
+footer {
+    background: #ff8da7 url(../img/section_bg.png) no-repeat top;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+footer h1,
+footer a,
+footer a:hover,
+footer p {
+    color: #fff;
+}
+
+footer ul li {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+}
+
+.gallery-icon {
+    display: inline-block;
+    margin: 20px;
+    border: white solid 4px;
+}
+
+.gallery-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+footer .icons i {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .icons i:hover {
+    color: #ff7f9f;
+    background-color: white;
+}
+
+
+/* ---------------------------------------------------------end footer style ----------------------------------------------------------------------*/
+
+/* phone */
+@media (max-width:858px) {
+    .main {
+        margin-left: 0;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        visibility: hidden;
+        width: 200px;
+    }
+
+    nav .nav-header {
+        visibility: hidden;
+        height: 0;
+    }
+
+    nav .nav-ul .nav-ul-li ul {
+        margin-left: 175px;
+    }
+    nav .nav-ul .nav-ul-li .icons i {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-left: 5px;
+        line-height: 30px;
+    }
+
+    .navbar {
+        visibility: visible;
+        display: block;
+    }
+
+    .sec-slider {
+        margin-top: 0;
+    }
+
+    #check:checked~nav {
+        visibility: visible;
+        z-index: 100;
+    }
+
+    .icon-btn.checkbtn {
+        visibility: hidden;
+    }
+
+    .gallery-icon img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
